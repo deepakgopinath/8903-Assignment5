@@ -1,0 +1,29 @@
+TZERO_CHECK
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/ZERO_CHECK.build/Script-BAE2E58E59554F068C3B4E7E.sh
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/ZERO_CHECK.build/Script-BAE2E58E59554F068C3B4E7E.sh
+c0000000053404F0D000000000000015B
+t1396723469
+s347
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese9b5d98d86f0b841^d256f18d86f0b841^---0#1#1#--18"Check dependencies36"D2E0509E-20FB-41D9-BF8A-7E0ED58DCF98-
+
+CPhaseScriptExecution CMake\ Rules /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/ZERO_CHECK.build/Script-BAE2E58E59554F068C3B4E7E.sh
+s418416269.927944
+e418416270.359844
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/ZERO_CHECK.build/Script-BAE2E58E59554F068C3B4E7E.sh
+oecho ""
+o
+omake -f /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/CMakeFiles/cmake.check_cache' is up to date.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'119"PhaseScriptExecution CMake\ Rules Assignment5/MyProject.build/Debug/ZERO_CHECK.build/Script-BAE2E58E59554F068C3B4E7E.shb728ef8d86f0b841^48165c8e86f0b841^-359"echo ""make -f /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/CMakeScripts/ReRunCMake.makemake[1]: `/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-418416270#0#8#-0#-----2@166"make -f /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/CMakeScripts/ReRunCMake.make-418416270#9#166#-0#-----2@184"make[1]: `/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/CMakeFiles/cmake.check_cache' is up to date.-418416270#175#184#-0#-----0#0#1#--462"PhaseScriptExecution CMake\ Rules Assignment5/MyProject.build/Debug/ZERO_CHECK.build/Script-BAE2E58E59554F068C3B4E7E.sh    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    /bin/sh -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/ZERO_CHECK.build/Script-BAE2E58E59554F068C3B4E7E.sh36"EE3AFA7A-A458-453F-8535-D75F4360360C-
+b8A77A8FC-BC7F-40A4-A629-F7BB988FA6D3
+

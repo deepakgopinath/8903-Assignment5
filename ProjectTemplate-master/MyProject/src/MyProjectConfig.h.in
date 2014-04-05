@@ -1,0 +1,36 @@
+#ifndef __MyProject_config_hdr__
+#define __MyProject_config_hdr__
+
+// set platform defines
+#ifndef GTCMT_LINUX32
+#cmakedefine GTCMT_LINUX32
+#endif // GTCMT_LINUX32
+#ifndef GTCMT_LINUX64
+#cmakedefine GTCMT_LINUX64
+#endif // GTCMT_LINUX64
+#ifndef GTCMT_MACOSX
+#cmakedefine GTCMT_MACOSX
+#endif // GTCMT_MACOSX
+#ifndef GTCMT_WIN32
+#cmakedefine GTCMT_WIN32
+#endif // GTCMT_WIN32
+#ifndef GTCMT_WIN64
+#cmakedefine GTCMT_WIN64
+#endif // GTCMT_WIN64
+
+//////////////////////////////////////////////////////////
+// set module switches
+#ifndef WITH_SNDLIB //!< sndlib should be used for audio IO
+#cmakedefine WITH_SNDLIB
+#endif // WITH_SNDLIB
+
+#ifndef WITH_TESTS //!< UnitTest++ should be used for for testing
+#cmakedefine WITH_TESTS
+#endif // WITH_TESTS
+
+// set the version number
+#define MyProject_VERSION_MAJOR ${MyProject_VERSION_MAJOR}
+#define MyProject_VERSION_MINOR ${MyProject_VERSION_MINOR}
+#define MyProject_VERSION_PATCH ${MyProject_VERSION_PATCH}
+
+#endif // __MyProject_config_hdr__

@@ -1,0 +1,29 @@
+TALL_BUILD
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/ALL_BUILD.build/Script-BF5E4CC91FEF41578946BF23.sh
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/ALL_BUILD.build/Script-BF5E4CC91FEF41578946BF23.sh
+c0000000053404F2E000000000000015A
+t1396723502
+s346
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0d1983ae86f0b841^9d7f83ae86f0b841^---0#1#1#--18"Check dependencies36"CA703610-19E0-46F1-BC57-11CB2FB7F01F-
+
+CPhaseScriptExecution CMake\ Rules /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/ALL_BUILD.build/Script-BF5E4CC91FEF41578946BF23.sh
+s418416302.516076
+e418416302.795844
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/ALL_BUILD.build/Script-BF5E4CC91FEF41578946BF23.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'118"PhaseScriptExecution CMake\ Rules Assignment5/MyProject.build/Debug/ALL_BUILD.build/Script-BF5E4CC91FEF41578946BF23.shdc9e84ae86f0b841^c3bccbae86f0b841^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-418416302#0#8#-0#-----2@26"echo Build\ all\ projects-418416302#9#26#-0#-----2@19"Build all projects-418416302#35#19#-0#-----0#0#1#--460"PhaseScriptExecution CMake\ Rules Assignment5/MyProject.build/Debug/ALL_BUILD.build/Script-BF5E4CC91FEF41578946BF23.sh    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    /bin/sh -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/ALL_BUILD.build/Script-BF5E4CC91FEF41578946BF23.sh36"B34C062F-4203-4972-83FB-4C275185F81A-
+bC3AEBF8F-A59B-40EC-8821-11A75A86D1C8
+

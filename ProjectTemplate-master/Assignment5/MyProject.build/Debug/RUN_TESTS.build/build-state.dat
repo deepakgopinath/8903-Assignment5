@@ -1,0 +1,45 @@
+TRUN_TESTS
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ PostBuild\ Rules /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/RUN_TESTS.build/Script-4041F295B44A4ADFA97AF83D.sh
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/RUN_TESTS.build/Script-4041F295B44A4ADFA97AF83D.sh
+c0000000053404F3E0000000000000154
+t1396723518
+s340
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciescedf54be86f0b841^717558be86f0b841^---0#1#1#--18"Check dependencies36"136EA9F9-AB2B-41ED-9D6F-ED03261C5887-
+
+CPhaseScriptExecution CMake\ PostBuild\ Rules /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/RUN_TESTS.build/Script-4041F295B44A4ADFA97AF83D.sh
+s418416318.348195
+e418416319.980475
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/RUN_TESTS.build/Script-4041F295B44A4ADFA97AF83D.sh
+o/Applications/CMake\ 2.8-12.app/Contents/bin/ctest --force-new-ctest-process -C Debug
+oTest project /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5
+o    Start 1: AudioIo
+o1/7 Test #1: AudioIo ..........................   Passed    0.15 sec
+o    Start 2: Fft
+o2/7 Test #2: Fft ..............................   Passed    0.04 sec
+o    Start 3: RingBuff
+o3/7 Test #3: RingBuff .........................   Passed    0.51 sec
+o    Start 4: Lfo
+o4/7 Test #4: Lfo ..............................   Passed    0.05 sec
+o    Start 5: InputBuffSrc
+o5/7 Test #5: InputBuffSrc .....................   Passed    0.04 sec
+o    Start 6: MyProject
+o6/7 Test #6: MyProject ........................   Passed    0.04 sec
+o    Start 7: CppCheck
+o7/7 Test #7: CppCheck .........................   Passed    0.41 sec
+o
+o100% tests passed, 0 tests failed out of 7
+o
+oTotal Test time (real) =   1.25 sec
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'129"PhaseScriptExecution CMake\ PostBuild\ Rules Assignment5/MyProject.build/Debug/RUN_TESTS.build/Script-4041F295B44A4ADFA97AF83D.sh06a059be86f0b841^fc01fbbf86f0b841^-940"/Applications/CMake\ 2.8-12.app/Contents/bin/ctest --force-new-ctest-process -C DebugTest project /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5    Start 1: AudioIo1/7 Test #1: AudioIo ..........................   Passed    0.15 sec    Start 2: Fft2/7 Test #2: Fft ..............................   Passed    0.04 sec    Start 3: RingBuff3/7 Test #3: RingBuff .........................   Passed    0.51 sec    Start 4: Lfo4/7 Test #4: Lfo ..............................   Passed    0.05 sec    Start 5: InputBuffSrc5/7 Test #5: InputBuffSrc .....................   Passed    0.04 sec    Start 6: MyProject6/7 Test #6: MyProject ........................   Passed    0.04 sec    Start 7: CppCheck7/7 Test #7: CppCheck .........................   Passed    0.41 sec100% tests passed, 0 tests failed out of 7Total Test time (real) =   1.25 sec18(21%IDEActivityLogMessage2@86"/Applications/CMake\ 2.8-12.app/Contents/bin/ctest --force-new-ctest-process -C Debug-418416318#0#86#-0#-----2@142"Test project /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5-418416318#86#142#-0#-----2@21"    Start 1: AudioIo-418416318#228#21#-0#-----2@69"1/7 Test #1: AudioIo ..........................   Passed    0.15 sec-418416318#249#69#-0#-----2@17"    Start 2: Fft-418416318#318#17#-0#-----2@69"2/7 Test #2: Fft ..............................   Passed    0.04 sec-418416318#335#69#-0#-----2@22"    Start 3: RingBuff-418416318#404#22#-0#-----2@69"3/7 Test #3: RingBuff .........................   Passed    0.51 sec-418416319#426#69#-0#-----2@17"    Start 4: Lfo-418416319#495#17#-0#-----2@69"4/7 Test #4: Lfo ..............................   Passed    0.05 sec-418416319#512#69#-0#-----2@26"    Start 5: InputBuffSrc-418416319#581#26#-0#-----2@69"5/7 Test #5: InputBuffSrc .....................   Passed    0.04 sec-418416319#607#69#-0#-----2@23"    Start 6: MyProject-418416319#676#23#-0#-----2@69"6/7 Test #6: MyProject ........................   Passed    0.04 sec-418416319#699#69#-0#-----2@22"    Start 7: CppCheck-418416319#768#22#-0#-----2@69"7/7 Test #7: CppCheck .........................   Passed    0.41 sec-418416319#790#69#-0#-----2@43"100% tests passed, 0 tests failed out of 7-418416319#860#43#-0#-----2@36"Total Test time (real) =   1.25 sec-418416319#904#36#-0#-----0#0#1#--471"PhaseScriptExecution CMake\ PostBuild\ Rules Assignment5/MyProject.build/Debug/RUN_TESTS.build/Script-4041F295B44A4ADFA97AF83D.sh    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    /bin/sh -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject.build/Debug/RUN_TESTS.build/Script-4041F295B44A4ADFA97AF83D.sh36"A1EE4AC9-D552-4730-82CF-89D728C1FAAD-
+b7FC2DB29-83DD-4D6F-986E-5B5CBB97EA52
+

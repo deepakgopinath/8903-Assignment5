@@ -1,0 +1,135 @@
+Start testing: Apr 05 14:45 EDT
+----------------------------------------------------------
+1/7 Testing: AudioIo
+1/7 Test: AudioIo
+Command: "/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/bin/Debug/TestCL" "AudioIo" "/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Tests/testdata/"
+Directory: /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5
+"AudioIo" start time: Apr 05 14:45 EDT
+Output:
+----------------------------------------------------------
+Success: 6 tests passed.
+Test time: 0.05 seconds.
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"AudioIo" end time: Apr 05 14:45 EDT
+"AudioIo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: Fft
+2/7 Test: Fft
+Command: "/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/bin/Debug/TestCL" "Fft"
+Directory: /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5
+"Fft" start time: Apr 05 14:45 EDT
+Output:
+----------------------------------------------------------
+Success: 6 tests passed.
+Test time: 0.00 seconds.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"Fft" end time: Apr 05 14:45 EDT
+"Fft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: RingBuff
+3/7 Test: RingBuff
+Command: "/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/bin/Debug/TestCL" "RingBuff"
+Directory: /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5
+"RingBuff" start time: Apr 05 14:45 EDT
+Output:
+----------------------------------------------------------
+Success: 11 tests passed.
+Test time: 0.48 seconds.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"RingBuff" end time: Apr 05 14:45 EDT
+"RingBuff" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: Lfo
+4/7 Test: Lfo
+Command: "/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/bin/Debug/TestCL" "Lfo"
+Directory: /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5
+"Lfo" start time: Apr 05 14:45 EDT
+Output:
+----------------------------------------------------------
+Success: 3 tests passed.
+Test time: 0.01 seconds.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"Lfo" end time: Apr 05 14:45 EDT
+"Lfo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: InputBuffSrc
+5/7 Test: InputBuffSrc
+Command: "/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/bin/Debug/TestCL" "InputBuffSrc"
+Directory: /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5
+"InputBuffSrc" start time: Apr 05 14:45 EDT
+Output:
+----------------------------------------------------------
+Success: 6 tests passed.
+Test time: 0.00 seconds.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"InputBuffSrc" end time: Apr 05 14:45 EDT
+"InputBuffSrc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: MyProject
+6/7 Test: MyProject
+Command: "/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/bin/Debug/TestCL" "MyProject"
+Directory: /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5
+"MyProject" start time: Apr 05 14:45 EDT
+Output:
+----------------------------------------------------------
+Success: 1 tests passed.
+Test time: 0.00 seconds.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"MyProject" end time: Apr 05 14:45 EDT
+"MyProject" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: CppCheck
+7/7 Test: CppCheck
+Command: "/usr/local/bin/cppcheck" "--error-exitcode=1" "/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject" "/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProjectCL" "/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/JuceLibraryCode" "/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO" "/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/TestCL" "/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp" " -I /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/incl -I /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/incl -I /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl"
+Directory: /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5
+"CppCheck" start time: Apr 05 14:45 EDT
+Output:
+----------------------------------------------------------
+Checking /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp...
+1/5 files checked 4% done
+Checking /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProjectCL/MyProjectMain.cpp...
+Checking /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProjectCL/MyProjectMain.cpp: WITH_FLOATEXCEPTIONS...
+Checking /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProjectCL/MyProjectMain.cpp: WITH_MEMORYCHECK...
+2/5 files checked 15% done
+Checking /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp...
+Checking /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp: WITH_SNDLIB...
+3/5 files checked 71% done
+Checking /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp...
+4/5 files checked 93% done
+Checking /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/TestCL/Test.cpp...
+Checking /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/TestCL/Test.cpp: WITH_FLOATEXCEPTIONS...
+Checking /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/TestCL/Test.cpp: WITH_MEMORYCHECK...
+5/5 files checked 100% done
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Passed.
+"CppCheck" end time: Apr 05 14:45 EDT
+"CppCheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 05 14:45 EDT

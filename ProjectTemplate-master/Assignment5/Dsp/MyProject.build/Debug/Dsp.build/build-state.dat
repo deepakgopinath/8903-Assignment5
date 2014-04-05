@@ -1,0 +1,186 @@
+TDsp
+v6
+r1
+cCheck dependencies
+cCompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/rvfft.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/Fft.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/rvfft.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/Fft.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/libDsp.a normal i386
+cLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/libDsp.a normal x86_64
+cCreateUniversalBinary /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libDsp.a normal i386\ x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005228144B00000000000000AA
+t1378358347
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/SDKSettings.plist
+c0000000052B4DDD600000000000004B3
+t1387584982
+s1203
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052B4DDD600000000000001DE
+t1387584982
+s478
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp
+c00000000533323460000000000006747
+t1395860294
+s26439
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/Dsp.LinkFileList
+c0000000053404F0E0000000000000180
+t1396723470
+s384
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/Fft.o
+t1396723471
+s23404
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/libDsp.a
+t1396723474
+s46360
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/rvfft.o
+t1396723470
+s21020
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/Dsp.LinkFileList
+c0000000053404F0E0000000000000184
+t1396723470
+s388
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/Fft.o
+t1396723472
+s24500
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/libDsp.a
+t1396723475
+s51048
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/rvfft.o
+t1396723471
+s24612
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp
+c00000000533323460000000000001DCB
+t1395860294
+s7627
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libDsp.a
+t2
+s0
+
+CBuild AST from /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp
+r0
+
+CBuild AST from /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6e34608e86f0b841^821b618e86f0b841^---0#1#1#--18"Check dependencies36"75A7D850-D94D-4E36-B7A9-8F67B67CED14-
+
+CCompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/Fft.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s418416270.383423
+e418416271.283014
+r1
+xCompileC
+xAssignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/Fft.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl/Util.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl/ErrorDef.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp168"CompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/Fft.o SharedSources/Dsp/Fft.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerc345628e86f0b841^e679488f86f0b841^---0#0#1#-19%DVTDocumentLocation2@158"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp0000000000000000^3402"CompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/Fft.o SharedSources/Dsp/Fft.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/DerivedSources/i386 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -Wall -msse -msse2 -msse3 -D DEBUG -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/Fft.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/Fft.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/Fft.o36"79F38A57-F219-423B-858E-5248CEAE3D90-
+b78C6C770-5B6C-4FCC-A5CE-33BD7F104AC2
+
+CCompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/rvfft.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s418416270.382479
+e418416270.746862
+r1
+xCompileC
+xAssignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/rvfft.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp171"CompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/rvfft.o 3rdPartyLibs/Fft/rvfft.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler4e0b628e86f0b841^7d58bf8e86f0b841^---0#0#1#-19%DVTDocumentLocation2@159"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp0000000000000000^3412"CompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/rvfft.o 3rdPartyLibs/Fft/rvfft.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/DerivedSources/i386 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -Wall -msse -msse2 -msse3 -D DEBUG -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/rvfft.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/rvfft.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/rvfft.o36"51D82981-3A44-48BC-8EAC-23DE4B9D41FD-
+b78C6C770-5B6C-4FCC-A5CE-33BD7F104AC2
+
+CCompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/Fft.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s418416272.275653
+e418416272.433825
+r1
+xCompileC
+xAssignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/Fft.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl/Util.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl/ErrorDef.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp172"CompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/Fft.o SharedSources/Dsp/Fft.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler03b3469086f0b841^d5216f9086f0b841^---0#0#1#-19%DVTDocumentLocation2@158"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp0000000000000000^3416"CompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/Fft.o SharedSources/Dsp/Fft.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/DerivedSources/x86_64 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -Wall -msse -msse2 -msse3 -D DEBUG -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/Fft.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/Fft.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/Dsp/Fft.cpp -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/Fft.o36"0D428FD5-3300-4F81-BCD5-DD68259D9192-
+b78C6C770-5B6C-4FCC-A5CE-33BD7F104AC2
+
+CCompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/rvfft.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s418416271.284514
+e418416271.389036
+r1
+xCompileC
+xAssignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/rvfft.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp175"CompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/rvfft.o 3rdPartyLibs/Fft/rvfft.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler5df9488f86f0b841^bfb5638f86f0b841^---0#0#1#-19%DVTDocumentLocation2@159"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp0000000000000000^3426"CompileC Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/rvfft.o 3rdPartyLibs/Fft/rvfft.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/DerivedSources/x86_64 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -Wall -msse -msse2 -msse3 -D DEBUG -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/rvfft.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/rvfft.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/Fft/rvfft.cpp -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/rvfft.o36"2DC75482-6CAA-4C60-8DE0-01E454E16ACC-
+b78C6C770-5B6C-4FCC-A5CE-33BD7F104AC2
+
+CCreateUniversalBinary /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libDsp.a normal i386\ x86_64
+s418416275.826169
+e418416275.848958
+r1
+xCreateUniversalBinary
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libDsp.a
+xnormal
+xi386 x86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Create universal binary /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libDsp.a60"CreateUniversalBinary lib/debug/libDsp.a normal i386\ x86_647d96d39386f0b841^ba66da9386f0b841^---0#0#1#-19%DVTDocumentLocation2@151"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libDsp.a00388c1fdcffdf42^734"CreateUniversalBinary lib/debug/libDsp.a normal i386\ x86_64    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    libtool -static /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/libDsp.a /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/libDsp.a -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libDsp.a36"013446BA-0F1E-4E34-B70D-9FE45B46B37C-
+b78C6C770-5B6C-4FCC-A5CE-33BD7F104AC2
+
+CLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/libDsp.a normal i386
+s418416274.683188
+e418416274.695840
+r1
+xLibtool
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/libDsp.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Libtool Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/libDsp.a normal i38696"Libtool Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/libDsp.a normal i3869701af9286f0b841^8254b29286f0b841^---0#0#1#--1034"Libtool Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/libDsp.a normal i386    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -filelist /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/Dsp.LinkFileList -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/i386/libDsp.a36"E9BB8F32-BEE4-4A04-9200-48B6FE9481EA-
+b78C6C770-5B6C-4FCC-A5CE-33BD7F104AC2
+
+CLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/libDsp.a normal x86_64
+s418416275.083173
+e418416275.107220
+r1
+xLibtool
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/libDsp.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Libtool Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/libDsp.a normal x86_64100"Libtool Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/libDsp.a normal x86_641e6c159386f0b841^b0731b9386f0b841^---0#0#1#--1044"Libtool Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/libDsp.a normal x86_64    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -filelist /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/Dsp.LinkFileList -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/Dsp/MyProject.build/Debug/Dsp.build/Objects-normal/x86_64/libDsp.a36"FB2283AC-3932-4BE1-B8C8-982C8A652613-
+b78C6C770-5B6C-4FCC-A5CE-33BD7F104AC2
+

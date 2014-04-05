@@ -1,0 +1,702 @@
+Tsndlib
+v6
+r1
+cCheck dependencies
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/audio.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm2xen.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/headers.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/io.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/s7.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sndlib2xen.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sound.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/vct.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/xen.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/audio.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm2xen.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/headers.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/io.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/s7.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sndlib2xen.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sound.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/vct.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/xen.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/libsndlib.a normal i386
+cLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/libsndlib.a normal x86_64
+cCreateUniversalBinary /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libsndlib.a normal i386\ x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005228144B00000000000000AA
+t1378358347
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/SDKSettings.plist
+c0000000052B4DDD600000000000004B3
+t1387584982
+s1203
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052B4DDD600000000000001DE
+t1387584982
+s478
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c
+c0000000053332346000000000002879C
+t1395860294
+s165788
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c
+c00000000533323460000000000060A9F
+t1395860294
+s395935
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c
+c000000005333234600000000000A5834
+t1395860294
+s677940
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c
+c0000000053332346000000000003CF2F
+t1395860294
+s249647
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c
+c000000005333234600000000000172BC
+t1395860294
+s94908
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c
+c000000005333234600000000001EE736
+t1395860294
+s2025270
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c
+c0000000053332346000000000001CFBB
+t1395860294
+s118715
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c
+c00000000533323460000000000008F6F
+t1395860294
+s36719
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c
+c00000000533323460000000000010E86
+t1395860294
+s69254
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c
+c0000000053332346000000000000C437
+t1395860294
+s50231
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/audio.o
+t1396723474
+s5132
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm.o
+t1396723474
+s542656
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm2xen.o
+t1396723474
+s118840
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/headers.o
+t1396723475
+s269276
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/io.o
+t1396723475
+s92616
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/libsndlib.a
+t1396723488
+s3401736
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/s7.o
+t1396723481
+s2212900
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sndlib.LinkFileList
+c0000000053404F10000000000000083B
+t1396723472
+s2107
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sndlib2xen.o
+t1396723475
+s42736
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sound.o
+t1396723475
+s60476
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/vct.o
+t1396723476
+s20664
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/xen.o
+t1396723476
+s7072
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/audio.o
+t1396723476
+s6404
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm.o
+t1396723478
+s619092
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm2xen.o
+t1396723479
+s148272
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/headers.o
+t1396723481
+s232632
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/io.o
+t1396723482
+s99488
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/libsndlib.a
+t1396723488
+s3656840
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/s7.o
+t1396723486
+s2367068
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sndlib.LinkFileList
+c0000000053404F10000000000000084F
+t1396723472
+s2127
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sndlib2xen.o
+t1396723487
+s52780
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sound.o
+t1396723487
+s68908
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/vct.o
+t1396723487
+s24556
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/xen.o
+t1396723487
+s8260
+
+N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libsndlib.a
+t2
+s0
+
+CBuild AST from /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c
+r0
+
+CBuild AST from /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c
+r0
+
+CBuild AST from /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c
+r0
+
+CBuild AST from /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c
+r0
+
+CBuild AST from /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c
+r0
+
+CBuild AST from /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c
+r0
+
+CBuild AST from /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c
+r0
+
+CBuild AST from /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c
+r0
+
+CBuild AST from /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c
+r0
+
+CBuild AST from /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies77856e9086f0b841^91996f9086f0b841^---0#1#1#--18"Check dependencies36"8B1D961F-7EDA-4561-8C2A-6BF20411CE2D-
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/audio.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416272.438033
+e418416274.681468
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/audio.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib-strings.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection152"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c188"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/audio.o 3rdPartyLibs/sndlib/audio.c normal i386 c com.apple.compilers.llvm.clang.1_0.compilere140709086f0b841^e278ae9286f0b841^---0#0#1#-19%DVTDocumentLocation2@160"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c0000000000000000^2982"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/audio.o 3rdPartyLibs/sndlib/audio.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/i386 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/audio.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/audio.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/audio.o36"20E4CB52-4A12-44DF-BA38-B7B630105924-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416272.438434
+e418416274.262420
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm-strings.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c184"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm.o 3rdPartyLibs/sndlib/clm.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler7958709086f0b841^c32d439286f0b841^---0#0#1#-19%DVTDocumentLocation2@158"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c0000000000000000^2970"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm.o 3rdPartyLibs/sndlib/clm.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/i386 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm.o36"98874DB4-A6E1-441A-B5FB-A516F93ADD3E-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm2xen.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416274.265039
+e418416274.629903
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm2xen.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm-strings.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c192"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm2xen.o 3rdPartyLibs/sndlib/clm2xen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compilerecf8439286f0b841^ea41a19286f0b841^---0#0#1#-19%DVTDocumentLocation2@162"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c0000000000000000^2994"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm2xen.o 3rdPartyLibs/sndlib/clm2xen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/i386 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm2xen.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm2xen.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/clm2xen.o36"1951946E-50CD-4EB8-A455-71364E560DAF-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/headers.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416274.631415
+e418416275.451400
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/headers.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib-strings.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c192"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/headers.o 3rdPartyLibs/sndlib/headers.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler7ec6a19286f0b841^f38e739386f0b841^---0#0#1#-19%DVTDocumentLocation2@162"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c0000000000000000^2994"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/headers.o 3rdPartyLibs/sndlib/headers.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/i386 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/headers.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/headers.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/headers.o36"FF616058-ABE7-4D30-9B4E-812D76CCF0D4-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/io.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416274.697463
+e418416275.081650
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/io.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c182"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/io.o 3rdPartyLibs/sndlib/io.c normal i386 c com.apple.compilers.llvm.clang.1_0.compilerddb3b29286f0b841^c7f4149386f0b841^---0#0#1#-19%DVTDocumentLocation2@157"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c0000000000000000^2964"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/io.o 3rdPartyLibs/sndlib/io.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/i386 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/io.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/io.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/io.o36"63A36419-28A1-4FC6-AEDB-CB59684343D2-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/s7.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416275.108643
+e418416281.430874
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/s7.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c182"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/s7.o 3rdPartyLibs/sndlib/s7.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler06f71b9386f0b841^e7506e9986f0b841^---0#0#1#-19%DVTDocumentLocation2@157"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c0000000000000000^2964"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/s7.o 3rdPartyLibs/sndlib/s7.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/i386 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/s7.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/s7.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/s7.o36"D9B62B80-053E-4C38-9777-F86DF476B047-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sndlib2xen.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416275.454763
+e418416275.645920
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sndlib2xen.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib-strings.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c198"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sndlib2xen.o 3rdPartyLibs/sndlib/sndlib2xen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler7d95749386f0b841^ea5ca59386f0b841^---0#0#1#-19%DVTDocumentLocation2@165"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c0000000000000000^3012"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sndlib2xen.o 3rdPartyLibs/sndlib/sndlib2xen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/i386 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sndlib2xen.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sndlib2xen.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sndlib2xen.o36"9546A7C6-47D1-44C7-91E3-664709E82A31-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sound.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416275.648181
+e418416275.824624
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sound.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib-strings.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection152"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c188"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sound.o 3rdPartyLibs/sndlib/sound.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler9c14a69386f0b841^3b1ad39386f0b841^---0#0#1#-19%DVTDocumentLocation2@160"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c0000000000000000^2982"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sound.o 3rdPartyLibs/sndlib/sound.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/i386 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sound.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sound.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sound.o36"F5EAD987-893D-4956-A42B-C53EF557842B-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/vct.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416275.852832
+e418416276.015333
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/vct.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c184"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/vct.o 3rdPartyLibs/sndlib/vct.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler207ada9386f0b841^d505049486f0b841^---0#0#1#-19%DVTDocumentLocation2@158"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c0000000000000000^2970"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/vct.o 3rdPartyLibs/sndlib/vct.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/i386 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/vct.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/vct.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/vct.o36"B7880BE3-0130-4E79-BB17-CE4552BC3EAE-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/xen.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416276.018905
+e418416276.204766
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/xen.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c184"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/xen.o 3rdPartyLibs/sndlib/xen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler1bf5049486f0b841^6a6b349486f0b841^---0#0#1#-19%DVTDocumentLocation2@158"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c0000000000000000^2970"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/xen.o 3rdPartyLibs/sndlib/xen.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/i386 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/xen.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/xen.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/xen.o36"B3C10789-264B-45E9-999B-C39D4F6D9FE7-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/audio.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416276.206164
+e418416276.734053
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/audio.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib-strings.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection152"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c192"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/audio.o 3rdPartyLibs/sndlib/audio.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler96e8349486f0b841^b3eabb9486f0b841^---0#0#1#-19%DVTDocumentLocation2@160"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c0000000000000000^2996"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/audio.o 3rdPartyLibs/sndlib/audio.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/x86_64 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/audio.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/audio.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/audio.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/audio.o36"09F51BBB-AEA4-429B-BD82-2EB8CD552B65-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416276.799276
+e418416278.145192
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm-strings.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c188"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm.o 3rdPartyLibs/sndlib/clm.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler7fbfcc9486f0b841^c72a259686f0b841^---0#0#1#-19%DVTDocumentLocation2@158"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c0000000000000000^2984"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm.o 3rdPartyLibs/sndlib/clm.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/x86_64 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm.o36"5C88A67A-6256-489D-9AA7-58BF58E4A641-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm2xen.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416278.845775
+e418416279.206319
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm2xen.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm-strings.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c196"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm2xen.o 3rdPartyLibs/sndlib/clm2xen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler36ccd89686f0b841^31d1349786f0b841^---0#0#1#-19%DVTDocumentLocation2@162"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c0000000000000000^3008"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm2xen.o 3rdPartyLibs/sndlib/clm2xen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/x86_64 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm2xen.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm2xen.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/clm2xen.o36"0B91D8B6-74DD-4B81-8E8B-43CDFBCFD311-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/headers.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416281.512309
+e418416281.858351
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/headers.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib-strings.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c196"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/headers.o 3rdPartyLibs/sndlib/headers.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler6347839986f0b841^f1bddb9986f0b841^---0#0#1#-19%DVTDocumentLocation2@162"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c0000000000000000^3008"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/headers.o 3rdPartyLibs/sndlib/headers.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/x86_64 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/headers.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/headers.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/headers.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/headers.o36"B916E105-D873-4B3B-AA5B-2C2BD7E0B443-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/io.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416281.896889
+e418416282.158780
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/io.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c186"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/io.o 3rdPartyLibs/sndlib/io.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilera9c0e59986f0b841^1aa8289a86f0b841^---0#0#1#-19%DVTDocumentLocation2@157"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c0000000000000000^2978"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/io.o 3rdPartyLibs/sndlib/io.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/x86_64 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/io.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/io.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/io.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/io.o36"3E898324-B271-4D16-87D9-D5D9A4D144AB-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/s7.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416282.601699
+e418416287.101862
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/s7.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c186"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/s7.o 3rdPartyLibs/sndlib/s7.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler35249a9a86f0b841^38141a9f86f0b841^---0#0#1#-19%DVTDocumentLocation2@157"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c0000000000000000^2978"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/s7.o 3rdPartyLibs/sndlib/s7.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/x86_64 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/s7.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/s7.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/s7.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/s7.o36"4115D221-C6D8-4272-836C-9D0A7B364CDA-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sndlib2xen.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416287.104159
+e418416287.263633
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sndlib2xen.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib-strings.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c202"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sndlib2xen.o 3rdPartyLibs/sndlib/sndlib2xen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler6ac21a9f86f0b841^857d439f86f0b841^---0#0#1#-19%DVTDocumentLocation2@165"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c0000000000000000^3026"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sndlib2xen.o 3rdPartyLibs/sndlib/sndlib2xen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/x86_64 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sndlib2xen.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sndlib2xen.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sndlib2xen.o36"9FFD9795-6729-440F-9E14-AE85E0D02044-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sound.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416287.441424
+e418416287.638894
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sound.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib-strings.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection152"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c192"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sound.o 3rdPartyLibs/sndlib/sound.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilera12b719f86f0b841^7e8ea39f86f0b841^---0#0#1#-19%DVTDocumentLocation2@160"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c0000000000000000^2996"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sound.o 3rdPartyLibs/sndlib/sound.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/x86_64 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sound.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sound.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sound.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sound.o36"7759B75E-0B75-48FE-B53D-7CA328589F95-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/vct.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416287.695084
+e418416287.828499
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/vct.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/_sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib2xen.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/clm2xen.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c188"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/vct.o 3rdPartyLibs/sndlib/vct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler880db29f86f0b841^fe0fd49f86f0b841^---0#0#1#-19%DVTDocumentLocation2@158"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c0000000000000000^2984"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/vct.o 3rdPartyLibs/sndlib/vct.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/x86_64 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/vct.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/vct.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/vct.o36"3BA22F3F-846E-451C-81AC-DEA8273A0279-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/xen.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s418416287.830059
+e418416287.926460
+r1
+xCompileC
+xAssignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/xen.o
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/mus-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/unix-config.h
+d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c188"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/xen.o 3rdPartyLibs/sndlib/xen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler0b9cd49f86f0b841^172ced9f86f0b841^---0#0#1#-19%DVTDocumentLocation2@158"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c0000000000000000^2984"CompileC Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/xen.o 3rdPartyLibs/sndlib/xen.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources/x86_64 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -w -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/xen.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/xen.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.c -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/xen.o36"3A583776-FADF-4397-82C0-FF9F473394B6-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CCreateUniversalBinary /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libsndlib.a normal i386\ x86_64
+s418416289.078097
+e418416289.684058
+r1
+xCreateUniversalBinary
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libsndlib.a
+xnormal
+xi386 x86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Create universal binary /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libsndlib.a63"CreateUniversalBinary lib/debug/libsndlib.a normal i386\ x86_643c1114a186f0b841^c11eafa186f0b841^---0#0#1#-19%DVTDocumentLocation2@154"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libsndlib.a00388c1fdcffdf42^782"CreateUniversalBinary lib/debug/libsndlib.a normal i386\ x86_64    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    libtool -static /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/libsndlib.a /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/libsndlib.a -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libsndlib.a36"81E2AE0E-11F3-48AE-8BCE-CF9754740781-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/libsndlib.a normal i386
+s418416288.062373
+e418416288.320794
+r1
+xLibtool
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/libsndlib.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Libtool Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/libsndlib.a normal i386117"Libtool Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/libsndlib.a normal i386240b10a086f0b841^f31f52a086f0b841^---0#0#1#--1097"Libtool Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/libsndlib.a normal i386    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -filelist /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/sndlib.LinkFileList -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/i386/libsndlib.a36"EA378628-BDA5-4E0E-96DE-D06B0D2EF538-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+
+CLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/libsndlib.a normal x86_64
+s418416288.375989
+e418416288.560502
+r1
+xLibtool
+x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/libsndlib.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Libtool Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/libsndlib.a normal x86_64121"Libtool Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/libsndlib.a normal x86_64a85560a086f0b841^857d8fa086f0b841^---0#0#1#--1107"Libtool Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/libsndlib.a normal x86_64    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -filelist /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/sndlib.LinkFileList -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/sndlib/MyProject.build/Debug/sndlib.build/Objects-normal/x86_64/libsndlib.a36"C894BAA0-5573-4C54-B144-EEDF2F269408-
+b331B8ABD-F2E0-4748-B847-C42DE1B057D6
+

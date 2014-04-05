@@ -1,0 +1,52 @@
+#ifndef __JuceHeader_hdr__
+#define __JuceHeader_hdr__
+
+#include "AppConfig.h"
+
+#ifdef JUCE_MODULE_AVAILABLE_juce_core
+#include "${JUCE_ROOT_DIR}/modules/juce_core/juce_core.h"
+#endif
+#ifdef JUCE_MODULE_AVAILABLE_juce_data_structures
+#include "${JUCE_ROOT_DIR}/modules/juce_data_structures/juce_data_structures.h"
+#endif
+#ifdef JUCE_MODULE_AVAILABLE_juce_events
+#include "${JUCE_ROOT_DIR}/modules/juce_events/juce_events.h"
+#endif
+#ifdef JUCE_MODULE_AVAILABLE_juce_graphics
+#include "${JUCE_ROOT_DIR}/modules/juce_graphics/juce_graphics.h"
+#endif
+#ifdef JUCE_MODULE_AVAILABLE_juce_gui_basics
+#include "${JUCE_ROOT_DIR}/modules/juce_gui_basics/juce_gui_basics.h"
+#endif
+#ifdef JUCE_MODULE_AVAILABLE_juce_gui_extra
+#include "${JUCE_ROOT_DIR}/modules/juce_gui_extra/juce_gui_extra.h"
+#endif
+#ifdef JUCE_MODULE_AVAILABLE_juce_audio_basics
+#include "${JUCE_ROOT_DIR}/modules/juce_audio_basics/juce_audio_basics.h"
+#endif
+#ifdef JUCE_MODULE_AVAILABLE_juce_audio_devices
+#include "${JUCE_ROOT_DIR}/modules/juce_audio_devices/juce_audio_devices.h"
+#endif
+#ifdef JUCE_MODULE_AVAILABLE_juce_audio_formats
+#include "${JUCE_ROOT_DIR}/modules/juce_audio_formats/juce_audio_formats.h"
+#endif
+#ifdef JUCE_MODULE_AVAILABLE_juce_audio_plugin_client
+#include "${JUCE_ROOT_DIR}/modules/juce_audio_plugin_client/juce_audio_plugin_client.h"
+#endif
+#ifdef JUCE_MODULE_AVAILABLE_juce_audio_processors
+#include "${JUCE_ROOT_DIR}/modules/juce_audio_processors/juce_audio_processors.h"
+#endif
+#ifdef JUCE_MODULE_AVAILABLE_juce_audio_utils
+#include "${JUCE_ROOT_DIR}/modules/juce_audio_utils/juce_audio_utils.h"
+#endif
+
+using namespace juce;
+
+namespace ProjectInfo
+{
+    const char* const  projectName    = "MyProject";
+    const char* const  versionString  = "${MyProject_VERSION_MAJOR}.${MyProject_VERSION_MINOR}.${MyProject_VERSION_PATCH}";
+    const int          versionNumber  = 0x${MyProject_VERSION_MAJOR}${MyProject_VERSION_MINOR}${MyProject_VERSION_PATCH};
+}
+
+#endif   // __JuceHeader_hdr__
