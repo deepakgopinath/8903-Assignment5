@@ -11,4 +11,11 @@
 
 #include <iostream>
 
+class CFeatureExtractor
+{
+public:
+    CFeatureExtractor();
+    virtual ~CFeatureExtractor();
+};
+
 #endif /* defined(__MyProject__CFeatureExtractor__) */
