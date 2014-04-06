@@ -1,8 +1,0 @@
-AudioIo 1 0.151111
-Fft 1 0.03532
-RingBuff 1 0.513855
-Lfo 1 0.049777
-InputBuffSrc 1 0.0350418
-MyProject 1 0.036391
-CppCheck 1 0.406794
----

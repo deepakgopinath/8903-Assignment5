@@ -1,144 +1,0 @@
-TAudioFileIO
-v6
-r1
-cCheck dependencies
-cCompileC Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/AudioFileIf.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/AudioFileIf.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/libAudioFileIO.a normal i386
-cLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/libAudioFileIO.a normal x86_64
-cCreateUniversalBinary /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libAudioFileIO.a normal i386\ x86_64
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c000000005228144B00000000000000AA
-t1378358347
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/SDKSettings.plist
-c0000000052B4DDD600000000000004B3
-t1387584982
-s1203
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000052B4DDD600000000000001DE
-t1387584982
-s478
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/AudioFileIO.LinkFileList
-c0000000053404F0E00000000000000D7
-t1396723470
-s215
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/AudioFileIf.o
-t1396723472
-s123260
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/libAudioFileIO.a
-t1396723472
-s127184
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/AudioFileIO.LinkFileList
-c0000000053404F0E00000000000000D9
-t1396723470
-s217
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/AudioFileIf.o
-t1396723472
-s126320
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/libAudioFileIO.a
-t1396723472
-s130240
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp
-c00000000533323460000000000004B45
-t1395860294
-s19269
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libAudioFileIO.a
-t2
-s0
-
-CBuild AST from /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesea42608e86f0b841^c749618e86f0b841^---0#1#1#--18"Check dependencies36"E582970F-E193-482E-B884-B982BA28DE66-
-
-CCompileC Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/AudioFileIf.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s418416270.748829
-e418416272.275084
-r1
-xCompileC
-xAssignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/AudioFileIf.o
-x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/incl/MyProjectConfig.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl/Util.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl/AudioFileIf.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl/ErrorDef.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection166"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp208"CompileC Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/AudioFileIf.o SharedSources/AudioFileIO/AudioFileIf.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler51dabf8e86f0b841^6a6d469086f0b841^---0#0#1#-19%DVTDocumentLocation2@174"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp0000000000000000^3565"CompileC Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/AudioFileIf.o SharedSources/AudioFileIO/AudioFileIf.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/DerivedSources/i386 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -Wall -msse -msse2 -msse3 -D DEBUG -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/AudioFileIf.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/AudioFileIf.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/AudioFileIf.o36"558A9006-8B64-4057-A01C-8441C3C1B36A-
-b9F8B34AD-E87D-4F0D-84A6-747871430D1C
-
-CCompileC Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/AudioFileIf.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s418416271.390491
-e418416272.274255
-r1
-xCompileC
-xAssignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/AudioFileIf.o
-x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/incl/MyProjectConfig.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/sndlib.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/xen.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib/vct.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl/Util.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl/AudioFileIf.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl/ErrorDef.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection166"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp212"CompileC Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/AudioFileIf.o SharedSources/AudioFileIO/AudioFileIf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler9623648f86f0b841^c635469086f0b841^---0#0#1#-19%DVTDocumentLocation2@174"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp0000000000000000^3579"CompileC Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/AudioFileIf.o SharedSources/AudioFileIO/AudioFileIf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/3rdPartyLibs/sndlib -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/DerivedSources/x86_64 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -Wall -msse -msse2 -msse3 -D DEBUG -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/AudioFileIf.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/AudioFileIf.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/AudioFileIO/AudioFileIf.cpp -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/AudioFileIf.o36"2B672A8A-A8CD-4395-9C7B-50829B4B3FAC-
-b9F8B34AD-E87D-4F0D-84A6-747871430D1C
-
-CCreateUniversalBinary /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libAudioFileIO.a normal i386\ x86_64
-s418416272.385881
-e418416272.414235
-r1
-xCreateUniversalBinary
-x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libAudioFileIO.a
-xnormal
-xi386 x86_64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection167"Create universal binary /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libAudioFileIO.a68"CreateUniversalBinary lib/debug/libAudioFileIO.a normal i386\ x86_64f4e0629086f0b841^f60b6a9086f0b841^---0#0#1#-19%DVTDocumentLocation2@159"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libAudioFileIO.a00388c1fdcffdf42^798"CreateUniversalBinary lib/debug/libAudioFileIO.a normal i386\ x86_64    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    libtool -static /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/libAudioFileIO.a /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/libAudioFileIO.a -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libAudioFileIO.a36"B4EEF7FC-C07F-4D73-9FA8-E229995E2C0A-
-b9F8B34AD-E87D-4F0D-84A6-747871430D1C
-
-CLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/libAudioFileIO.a normal i386
-s418416272.283376
-e418416272.355955
-r1
-xLibtool
-x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/libAudioFileIO.a
-xnormal
-xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Libtool Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/libAudioFileIO.a normal i386120"Libtool Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/libAudioFileIO.a normal i386c2a4489086f0b841^da3b5b9086f0b841^---0#0#1#--1106"Libtool Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/libAudioFileIO.a normal i386    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -filelist /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/AudioFileIO.LinkFileList -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/i386/libAudioFileIO.a36"70D3BC7E-2A94-4CFC-9E58-44D978C3F7D7-
-b9F8B34AD-E87D-4F0D-84A6-747871430D1C
-
-CLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/libAudioFileIO.a normal x86_64
-s418416272.357410
-e418416272.377486
-r1
-xLibtool
-x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/libAudioFileIO.a
-xnormal
-xx86_64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Libtool Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/libAudioFileIO.a normal x86_64124"Libtool Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/libAudioFileIO.a normal x86_6474985b9086f0b841^83a3609086f0b841^---0#0#1#--1116"Libtool Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/libAudioFileIO.a normal x86_64    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -filelist /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/AudioFileIO.LinkFileList -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/AudioFileIO/MyProject.build/Debug/AudioFileIO.build/Objects-normal/x86_64/libAudioFileIO.a36"9FE31058-3963-4E78-8089-F99F25B33A9F-
-b9F8B34AD-E87D-4F0D-84A6-747871430D1C
-

@@ -1,136 +1,0 @@
-TMyProject
-v6
-r1
-cCheck dependencies
-cCompileC Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/MyProject.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/MyProject.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/libMyProject.a normal i386
-cLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/libMyProject.a normal x86_64
-cCreateUniversalBinary /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libMyProject.a normal i386\ x86_64
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c000000005228144B00000000000000AA
-t1378358347
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/SDKSettings.plist
-c0000000052B4DDD600000000000004B3
-t1387584982
-s1203
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000052B4DDD600000000000001DE
-t1387584982
-s478
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/MyProject.LinkFileList
-c0000000053404F2100000000000000D1
-t1396723489
-s209
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/MyProject.o
-t1396723490
-s9324
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/libMyProject.a
-t1396723490
-s10000
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/MyProject.LinkFileList
-c0000000053404F2100000000000000D3
-t1396723489
-s211
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/MyProject.o
-t1396723490
-s9996
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/libMyProject.a
-t1396723490
-s10672
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp
-c000000005333234600000000000005F0
-t1395860294
-s1520
-
-N/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libMyProject.a
-t2
-s0
-
-CBuild AST from /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9276bfa186f0b841^541fc0a186f0b841^---0#1#1#--18"Check dependencies36"DC107AA1-F525-4ADC-A4F6-01B1038AC427-
-
-CCompileC Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/MyProject.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s418416290.138804
-e418416290.235573
-r1
-xCompileC
-xAssignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/MyProject.o
-x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/incl/MyProjectConfig.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl/ErrorDef.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/incl/MyProject.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp198"CompileC Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/MyProject.o MyProject/src/MyProject/MyProject.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler65a723a286f0b841^944e3ca286f0b841^---0#0#1#-19%DVTDocumentLocation2@170"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp0000000000000000^3386"CompileC Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/MyProject.o MyProject/src/MyProject/MyProject.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/DerivedSources/i386 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -Wall -msse -msse2 -msse3 -D DEBUG -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/MyProject.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/MyProject.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/MyProject.o36"A7FD478E-2360-4857-B757-173B43C0AC34-
-b781DA664-C8C5-4D04-825E-0CDFE62248E5
-
-CCompileC Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/MyProject.o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s418416290.301344
-e418416290.338623
-r1
-xCompileC
-xAssignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/MyProject.o
-x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/incl/MyProjectConfig.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl/ErrorDef.h
-d/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/incl/MyProject.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Compile /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp202"CompileC Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/MyProject.o MyProject/src/MyProject/MyProject.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerf4524da286f0b841^9baf56a286f0b841^---0#0#1#-19%DVTDocumentLocation2@170"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp0000000000000000^3400"CompileC Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/MyProject.o MyProject/src/MyProject/MyProject.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/include -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/SharedSources/incl -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/DerivedSources/x86_64 -I/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -Wall -msse -msse2 -msse3 -D DEBUG -MMD -MT dependencies -MF /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/MyProject.d --serialize-diagnostics /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/MyProject.dia -c /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/MyProject/src/MyProject/MyProject.cpp -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/MyProject.o36"0FFA4879-C971-4B0E-AFA8-B6C106C188CE-
-b781DA664-C8C5-4D04-825E-0CDFE62248E5
-
-CCreateUniversalBinary /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libMyProject.a normal i386\ x86_64
-s418416290.982612
-e418416290.995881
-r1
-xCreateUniversalBinary
-x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libMyProject.a
-xnormal
-xi386 x86_64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection165"Create universal binary /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libMyProject.a66"CreateUniversalBinary lib/debug/libMyProject.a normal i386\ x86_6465a7fba286f0b841^63f2fea286f0b841^---0#0#1#-19%DVTDocumentLocation2@157"file://localhost/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libMyProject.a00388c1fdcffdf42^782"CreateUniversalBinary lib/debug/libMyProject.a normal i386\ x86_64    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    libtool -static /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/libMyProject.a /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/libMyProject.a -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug/libMyProject.a36"03799BA3-032F-4245-92C8-BB5815FF3625-
-b781DA664-C8C5-4D04-825E-0CDFE62248E5
-
-CLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/libMyProject.a normal i386
-s418416290.677350
-e418416290.693902
-r1
-xLibtool
-x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/libMyProject.a
-xnormal
-xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Libtool Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/libMyProject.a normal i386114"Libtool Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/libMyProject.a normal i3867b85ada286f0b841^05a4b1a286f0b841^---0#0#1#--1088"Libtool Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/libMyProject.a normal i386    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -filelist /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/MyProject.LinkFileList -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/i386/libMyProject.a36"A1C66FE5-4A01-49FA-80F0-66862A75C482-
-b781DA664-C8C5-4D04-825E-0CDFE62248E5
-
-CLibtool /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/libMyProject.a normal x86_64
-s418416290.797859
-e418416290.811980
-r1
-xLibtool
-x/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/libMyProject.a
-xnormal
-xx86_64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Libtool Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/libMyProject.a normal x86_64118"Libtool Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/libMyProject.a normal x86_64eb55cca286f0b841^fdddcfa286f0b841^---0#0#1#--1098"Libtool Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/libMyProject.a normal x86_64    cd /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/lib/debug -filelist /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/MyProject.LinkFileList -o /Users/deepak/Desktop/GeorgiaTech/Semester2Acads/SoftWareDevAlexLerch/Assignments/Assignment5/ProjectTemplate-master/Assignment5/MyProject/MyProject.build/Debug/MyProject.build/Objects-normal/x86_64/libMyProject.a36"C6B7E1A5-97CC-43B7-9B7F-FE5E56D1A4F0-
-b781DA664-C8C5-4D04-825E-0CDFE62248E5
-
