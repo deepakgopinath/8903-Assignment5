@@ -44,7 +44,7 @@ float CFeatureExtractor::extractFeatures(float *inputData, int sizeOfData, int f
             break;
     }
     
-    return 1.0;
+    return -1.0;
 }
 
 float CFeatureExtractor::spectralCentroid(float *spectralData, int sizeOfData)

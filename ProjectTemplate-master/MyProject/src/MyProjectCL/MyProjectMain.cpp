@@ -126,7 +126,13 @@ int main(int argc, char* argv[])
         // gotta check if the input from user is an int....validate the input here....
         if(userEnteredOption != -1)
         {
-            myOptionsArray.push_back(userEnteredOption);
+            if(userEnteredOption >=0 && userEnteredOption <=3)
+            {
+                myOptionsArray.push_back(userEnteredOption);
+            }else
+            {
+                std::cout << "Please enter a valid feature number (0-3)" << std::endl;
+            }
         }
         std::cin.clear();
         std::cin.ignore();
@@ -167,27 +173,18 @@ int main(int argc, char* argv[])
     // read wave
     while (!phInputFile->isEof())
     {
-        int iNumFrames = rand()%2000;
+        int iNumFrames = kBlockSize;
         phInputFile->readData(ppfAudioData, iNumFrames);
         pMyFeatureExtractor->process(ppfAudioData, ppfAudioData, iNumFrames);
-//        for (int i = 0; i < iNumFrames; i++)
-//        {
-//            for (int c = 0; c < stFileSpec.iNumChannels; c++)
-//            {
-//                hOutputFile << ppfAudioData[c][i] << "\t";
-//            }
-//            hOutputFile << endl;
-//        }
-
     }
     
     // here the feature matrix should have been populated....
     pMyFeatureExtractor->getSizeOfResult(xDim, yDim);
-    std::cout << " Size of feature Matrix is " << xDim << " by " << yDim;
+    std::cout << "Size of feature Matrix is " << xDim << " by " << yDim << std::endl;
     
     pMyFeatureExtractor->getResult(ppfFeatureMatrix);
     
-    std::cout << "Write the features onto the command line" << std::endl << " Block number along rows and features along columns" <<std::endl;
+    std::cout << "Write the features onto the command line" << std::endl << "Block number along rows and features along columns" <<std::endl;
     
     for (int i=0; i<yDim; i++) // block index
     {
