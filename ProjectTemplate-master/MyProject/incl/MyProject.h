@@ -33,7 +33,7 @@ public:
     Error_t process (float **ppfInputBuffer, float **ppfOutputBuffer, int iNumberOfFrames);
     
     void getSizeOfResult(int &numRows, int &numColumns);
-    void getResult(float **featureMatrix);
+    void getResult(float **&featureMatrix);
 protected:
     CMyProject ();
     virtual ~CMyProject ();

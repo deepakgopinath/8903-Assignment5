@@ -106,7 +106,7 @@ Error_t CMyProject::initInstance(int iNumChannels, float fSampleRate, int iBlock
     m_iNumBlocks = iNumBlocks;
     
     m_FFTResult = new float[m_iBlockSize];
-    m_fFftMag = new float[static_cast<int>( m_iBlockSize/2 ) + 1];
+    m_fFftMag = new float[static_cast<int>( m_iBlockSize/2) + 1];
     m_pMyInputBuffSrc  = new CInputBuffSrc<float>(m_iNumChannels, m_iBlockSize, 0);
     
     CFft::createInstance(m_pMyFFt);
@@ -268,7 +268,7 @@ void CMyProject::getSizeOfResult(int &numRows, int &numColumns)
     numColumns = m_iNumBlocks;
 }
 
-void CMyProject::getResult(float **featureMatrix)
+void CMyProject::getResult(float **&featureMatrix)
 {
     featureMatrix = m_FeatureMatrix;
 }

@@ -31,7 +31,7 @@ using std::endl;
 // local function declarations
 void    showClInfo ();
 
-Error_t   getClArgs (std::string &sInputFilePath, std::string &sOutputFilePath, int &blockSize, int &hopSize, int argc, char* argv[]);
+Error_t   getClArgs (std::string &sInputFilePath, std::string &sOutputFilePath, int &blockSize, int &hopSize, CFft::WindowFunction_t &eWindowType, int argc, char* argv[]);
 
 void    printVector(std::vector<int> vector);
 /////////////////////////////////////////////////////////////////////////////////
@@ -52,8 +52,11 @@ int main(int argc, char* argv[])
     CMyProject              *pMyFeatureExtractor;
     std::vector<int>        myOptionsArray;
     int                     userEnteredOption = 0;
+    
     int                     iBlockSize = 1024;
     int                     iHopSize = 512;
+    CFft::WindowFunction_t eWinType = CFft::kWindowHann;
+    
     int                     iNumBlocks = 1;
     int                     xDim = 0;
     int                     yDim = 0;
@@ -80,7 +83,7 @@ int main(int argc, char* argv[])
     showClInfo ();
 
     // parse command line arguments
-    err = getClArgs(sInputFilePath, sOutputFilePath, iBlockSize, iHopSize, argc, argv);
+    err = getClArgs(sInputFilePath, sOutputFilePath, iBlockSize, iHopSize,eWinType, argc, argv);
     
     if(err != kNoError)
     {
@@ -119,7 +122,8 @@ int main(int argc, char* argv[])
     while(userEnteredOption != -1)
     {
         std::cin >> userEnteredOption;
-        std::cout<< "Here is what you entered" << std::endl << userEnteredOption;
+        //std::cout<< "Here is what you entered" << std::endl << userEnteredOption;
+        // gotta check if the input from user is an int....validate the input here....
         if(userEnteredOption != -1)
         {
             myOptionsArray.push_back(userEnteredOption);
@@ -183,14 +187,14 @@ int main(int argc, char* argv[])
     
     pMyFeatureExtractor->getResult(ppfFeatureMatrix);
     
-    std::cout << "Write the features onto the command line" << std::endl;
+    std::cout << "Write the features onto the command line" << std::endl << " Block number along rows and features along columns" <<std::endl;
     
-    for (int i=0; i<xDim; i++)
+    for (int i=0; i<yDim; i++) // block index
     {
-        for(int j=0; j<yDim; j++)
+        for(int j=0; j<xDim; j++) // feature index
         {
-            std::cout << ppfFeatureMatrix[i][j] << "\t";
-            hOutputFile << ppfFeatureMatrix[i][j] << "\t";
+            std::cout << ppfFeatureMatrix[j][i] << "\t";
+            hOutputFile << ppfFeatureMatrix[j][i] << "\t";
         }
         std::cout << std::endl;
         hOutputFile << endl;
@@ -227,7 +231,7 @@ void     showClInfo()
     return;
 }
 
-Error_t getClArgs( std::string &sInputFilePath, std::string &sOutputFilePath, int &blockSize, int &hopSize,int argc, char* argv[])
+Error_t getClArgs( std::string &sInputFilePath, std::string &sOutputFilePath, int &blockSize, int &hopSize,CFft::WindowFunction_t &eWindowType, int argc, char* argv[])
 {
     if (argc > 1)
         sInputFilePath.assign (argv[1]);
@@ -255,6 +259,13 @@ Error_t getClArgs( std::string &sInputFilePath, std::string &sOutputFilePath, in
         {
             std::cout << "Invalid hopsize" << std::endl;
             return kFunctionInvalidArgsError;
+        }
+    }
+    if(argc > 5)
+    {
+        if(atoi(argv[5]) >= CFft::kWindowSine && atoi(argv[5]) <= CFft::kWindowHamming)
+        {
+            eWindowType = static_cast<CFft::WindowFunction_t>(atoi(argv[5]));
         }
     }
     return kNoError;
