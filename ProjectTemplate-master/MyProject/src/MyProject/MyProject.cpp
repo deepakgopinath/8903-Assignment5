@@ -106,7 +106,7 @@ Error_t CMyProject::initInstance(int iNumChannels, float fSampleRate, int iBlock
     m_iNumBlocks = iNumBlocks;
     
     m_FFTResult = new float[m_iBlockSize];
-    m_fFftMag = new float[static_cast<int>( m_iBlockSize/2) + 1];
+    m_fFftMag = new float[static_cast<int>(m_iBlockSize/2) + 1];
     m_pMyInputBuffSrc  = new CInputBuffSrc<float>(m_iNumChannels, m_iBlockSize, 0);
     
     CFft::createInstance(m_pMyFFt);
@@ -251,8 +251,8 @@ Error_t CMyProject::process(float **ppfInputBuffer, float **ppfOutputBuffer, int
         }
         
         m_iBlockCounter++;
-        
     }
+    m_pMyInputBuffSrc->releaseDataPtr();
 //    
 //    if(m_iBlockCounter == m_iNumBlocks)
 //    {

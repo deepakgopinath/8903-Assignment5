@@ -167,7 +167,7 @@ int main(int argc, char* argv[])
     // read wave
     while (!phInputFile->isEof())
     {
-        int iNumFrames = kBlockSize;
+        int iNumFrames = rand()%2000;
         phInputFile->readData(ppfAudioData, iNumFrames);
         pMyFeatureExtractor->process(ppfAudioData, ppfAudioData, iNumFrames);
 //        for (int i = 0; i < iNumFrames; i++)
