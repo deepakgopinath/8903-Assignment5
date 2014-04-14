@@ -32,7 +32,7 @@ public:
         kTotalNumFeatures // 4
     };
 
-    CFeatureExtractor(float fSampleRate, int iFftSize);
+    CFeatureExtractor(float fSampleRate, int iFftSize, float fKappa);
     virtual ~CFeatureExtractor();
     
     float extractFeatures(float *inputData, int sizeOfData, int featureOptionSelected);
@@ -40,6 +40,7 @@ private:
     
     float m_fSampleRate;
     float *m_pfPrevBlock;
+    float m_fKappa;
     
     float spectralCentroid(float *spectralData, int sizeOfData);
     float spectralFlux(float *spectralData, int sizeOfData);

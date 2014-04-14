@@ -10,12 +10,13 @@
 #include "SignalGen.h"
 #include <math.h>
 
-CFeatureExtractor::CFeatureExtractor(float fSampleRate, int iFftSize):
+CFeatureExtractor::CFeatureExtractor(float fSampleRate, int iFftSize, float fKappa):
                     m_fSampleRate(fSampleRate),
-                    m_pfPrevBlock(0)
+                    m_pfPrevBlock(0),
+                    m_fKappa(fKappa)
 {
     m_pfPrevBlock = new float[iFftSize];
-    CSignalGen::generateDc(m_pfPrevBlock, iFftSize, 0.0);
+    CSignalGen::generateDc(m_pfPrevBlock, iFftSize, -1.0f);
 }
 
 CFeatureExtractor::~CFeatureExtractor()
@@ -35,7 +36,7 @@ float CFeatureExtractor::extractFeatures(float *inputData, int sizeOfData, int f
             return spectralFlux(inputData, sizeOfData);
             break;
         case kSpectralRolloff:
-            return spectralRollOff(inputData, sizeOfData, 0.85); // hard coded kappa value
+            return spectralRollOff(inputData, sizeOfData, m_fKappa); // hard coded kappa value
             break;
         case kZeroCrossRate:
             return zeroCrossingRate(inputData, sizeOfData);
@@ -68,6 +69,7 @@ float CFeatureExtractor::spectralCentroid(float *spectralData, int sizeOfData)
         fSpectralCentroid = fNumSum/fDenSum;
     }
     
+    fSpectralCentroid = (fSpectralCentroid/static_cast<float>(sizeOfData))*(m_fSampleRate/2.0);
     return fSpectralCentroid;
 }
 
@@ -75,21 +77,19 @@ float CFeatureExtractor::spectralFlux(float *spectralData, int sizeOfData)
 {
     float fSpectralFlux = 0.0;
     float fNum = 0.0;
-//    
-//    if (m_pfPrevBlock[0] == -1.0) {
-//        memcpy(m_pfPrevBlock, spectralData, sizeOfData);
-//        fSpectralFlux = 0.0;
-//        return fSpectralFlux;
-//    }
+    
+    if (m_pfPrevBlock[0] == -1.0) {
+        memcpy(m_pfPrevBlock, spectralData, sizeOfData*sizeof(float));
+    }
     
     for (int i = 0; i < sizeOfData; i++) {
         fNum += powf((spectralData[i] - m_pfPrevBlock[i]), 2.0);
     }
     
     fNum = sqrtf(fNum);
-    fSpectralFlux = fNum/sizeOfData;
+    fSpectralFlux = (fNum*2.0)/(sizeOfData); // why the heck do we have to multiply by 2.0 to get the same answer as matlab!!!
     
-    memcpy(m_pfPrevBlock, spectralData, sizeOfData);
+    memcpy(m_pfPrevBlock, spectralData, sizeOfData*sizeof(float));
     
     return fSpectralFlux;
 }
@@ -106,12 +106,16 @@ float CFeatureExtractor::spectralRollOff(float *spectralData, int sizeOfData, fl
     
     for (int i = 0; i < sizeOfData; i++) {
         fCumSum += spectralData[i];
-        if (fCumSum >= fKappa*fTotalSum) {
-            fSpectralRollOff = (i * m_fSampleRate)/(2.0*sizeOfData);
+        
+        //std::cout << fCumSum - fKappa*fTotalSum << std::endl;
+        
+        if (fCumSum >= fKappa*fTotalSum ) {
+            fSpectralRollOff = i+1;
+            //fSpectralRollOff = ((i+1) * m_fSampleRate)/(2.0*sizeOfData); // i+1 because the we need the bin index...
             break;
         }
     }
-
+    fSpectralRollOff = (fSpectralRollOff/static_cast<float>(sizeOfData)) * (m_fSampleRate/2.0);
     return fSpectralRollOff;
 }
 

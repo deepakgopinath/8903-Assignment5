@@ -27,7 +27,7 @@ public:
     static Error_t createInstance (CMyProject*& pCKortIf);
     static Error_t destroyInstance (CMyProject*& pCKortIf);
     
-    Error_t initInstance (int iNumChannels, float fSampleRate, int iBlockSize, int iHopSize, CFft::WindowFunction_t eWindowFunction, std::vector<int>optionsArray, int iNumBlocks);
+    Error_t initInstance (int iNumChannels, float fSampleRate, int iBlockSize, int iHopSize, CFft::WindowFunction_t eWindowFunction, CFft::Windowing_t eWindow, float fKappa, std::vector<int>optionsArray, int iNumBlocks);
     Error_t resetInstance ();
     
     Error_t process (float **ppfInputBuffer, float **ppfOutputBuffer, int iNumberOfFrames);

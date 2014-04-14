@@ -31,7 +31,7 @@ using std::endl;
 // local function declarations
 void    showClInfo ();
 
-Error_t   getClArgs (std::string &sInputFilePath, std::string &sOutputFilePath, int &blockSize, int &hopSize, CFft::WindowFunction_t &eWindowType, int argc, char* argv[]);
+Error_t   getClArgs (std::string &sInputFilePath, std::string &sOutputFilePath, int &blockSize, int &hopSize, CFft::WindowFunction_t &eWindowType, CFft::Windowing_t &eWindowing, float &fKappa, int argc, char* argv[]);
 
 void    printVector(std::vector<int> vector);
 /////////////////////////////////////////////////////////////////////////////////
@@ -56,13 +56,14 @@ int main(int argc, char* argv[])
     int                     iBlockSize = 1024;
     int                     iHopSize = 512;
     CFft::WindowFunction_t eWinType = CFft::kWindowHann;
+    CFft::Windowing_t      eWinOpt = CFft::kPreWindow;
+    float                  fKappa = 0.85;
     
     int                     iNumBlocks = 1;
     int                     xDim = 0;
     int                     yDim = 0;
     long long               iNumFramesInAudioFile = 0;
     
-    CFft::WindowFunction_t windowFunction = CFft::kWindowHamming;
     Error_t err;
 
     // detect memory leaks in win32
@@ -83,7 +84,7 @@ int main(int argc, char* argv[])
     showClInfo ();
 
     // parse command line arguments
-    err = getClArgs(sInputFilePath, sOutputFilePath, iBlockSize, iHopSize,eWinType, argc, argv);
+    err = getClArgs(sInputFilePath, sOutputFilePath, iBlockSize, iHopSize,eWinType,eWinOpt, fKappa, argc, argv);
     
     if(err != kNoError)
     {
@@ -99,9 +100,8 @@ int main(int argc, char* argv[])
     }
     phInputFile->getFileSpec(stFileSpec);
     phInputFile->getLength(iNumFramesInAudioFile);
-   // std::cout<<iNumFramesInAudioFile<<std::endl;
+  
     iNumBlocks = static_cast<int>(floorf((iNumFramesInAudioFile - iBlockSize)/iHopSize)) + 1;
-   // std::cout << iNumBlocks << std::endl;
     // open the output text file
      hOutputFile.open (sOutputFilePath.c_str(), std::ios::out);
      if (!hOutputFile.is_open())
@@ -126,7 +126,7 @@ int main(int argc, char* argv[])
         // gotta check if the input from user is an int....validate the input here....
         if(userEnteredOption != -1)
         {
-            if(userEnteredOption >=0 && userEnteredOption <=3)
+            if(userEnteredOption >=0 && userEnteredOption <=3 && myOptionsArray.)
             {
                 myOptionsArray.push_back(userEnteredOption);
             }else
@@ -162,7 +162,7 @@ int main(int argc, char* argv[])
         we should also have constructed our options array properly.
      */
     
-    pMyFeatureExtractor->initInstance(stFileSpec.iNumChannels, stFileSpec.fSampleRateInHz, iBlockSize, iHopSize, windowFunction, myOptionsArray, iNumBlocks);
+    pMyFeatureExtractor->initInstance(stFileSpec.iNumChannels, stFileSpec.fSampleRateInHz, iBlockSize, iHopSize, eWinType, eWinOpt, fKappa, myOptionsArray,  iNumBlocks);
     
     // we call initInstance of pMyProject
     // allocate audio data buffer
@@ -217,7 +217,7 @@ int main(int argc, char* argv[])
 void     showClInfo()
 {
     cout << "GTCMT template app" << endl;
-    cout << "(c) 2013 by Alexander Lerch" << endl;
+    cout << "(c) 2013 by Alexander Lerch, Iman Mukherjee, Deepak Gopinath" << endl;
     cout    << "V" 
         << CMyProject::getVersion (CMyProject::kMajor) << "." 
         << CMyProject::getVersion (CMyProject::kMinor) << "." 
@@ -228,7 +228,7 @@ void     showClInfo()
     return;
 }
 
-Error_t getClArgs( std::string &sInputFilePath, std::string &sOutputFilePath, int &blockSize, int &hopSize,CFft::WindowFunction_t &eWindowType, int argc, char* argv[])
+Error_t getClArgs( std::string &sInputFilePath, std::string &sOutputFilePath, int &blockSize, int &hopSize,CFft::WindowFunction_t &eWindowType, CFft::Windowing_t &eWindow, float &fKappa, int argc, char* argv[])
 {
     if (argc > 1)
         sInputFilePath.assign (argv[1]);
@@ -242,13 +242,13 @@ Error_t getClArgs( std::string &sInputFilePath, std::string &sOutputFilePath, in
         }
         else
         {
-            std::cout << "Invalid block size. Gotta be a power of 2 baggaaa" << std::endl;
+            std::cout << "Invalid block size. Gotta be a power of 2" << std::endl;
             return kFunctionInvalidArgsError;
         }
     }
     if(argc > 4)
     {
-        if(atof(argv[4]) > 1.0 && static_cast<int>(atof(argv[4])) < blockSize)
+        if(atof(argv[4]) > 1.0 && static_cast<int>(atof(argv[4])) <= blockSize)
         {
             hopSize = static_cast<int>(atof(argv[4]));
         }
@@ -263,6 +263,20 @@ Error_t getClArgs( std::string &sInputFilePath, std::string &sOutputFilePath, in
         if(atoi(argv[5]) >= CFft::kWindowSine && atoi(argv[5]) <= CFft::kWindowHamming)
         {
             eWindowType = static_cast<CFft::WindowFunction_t>(atoi(argv[5]));
+        }
+    }
+    if(argc > 6)
+    {
+        if(atoi(argv[5]) >= CFft::kNoWindow && atoi(argv[5]) <= CFft::kPostWindow)
+        {
+            eWindow = static_cast<CFft::Windowing_t>(atoi(argv[5]));
+        }
+    }
+    if(argc > 7)
+    {
+        if(atof(argv[5]) > 0.0 && atof(argv[5]) < 1.0)
+        {
+            fKappa = atof(argv[5]);
         }
     }
     return kNoError;
