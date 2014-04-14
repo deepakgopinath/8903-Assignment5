@@ -126,12 +126,12 @@ int main(int argc, char* argv[])
         // gotta check if the input from user is an int....validate the input here....
         if(userEnteredOption != -1)
         {
-            if(userEnteredOption >=0 && userEnteredOption <=3 && myOptionsArray.)
+            if(userEnteredOption >=0 && userEnteredOption <=3 && (std::find(myOptionsArray.begin(), myOptionsArray.end(), userEnteredOption) == myOptionsArray.end()))
             {
                 myOptionsArray.push_back(userEnteredOption);
             }else
             {
-                std::cout << "Please enter a valid feature number (0-3)" << std::endl;
+                std::cout << "Please enter a valid feature number (0-3). Or you have repeated a feature value." << std::endl;
             }
         }
         std::cin.clear();
@@ -159,6 +159,8 @@ int main(int argc, char* argv[])
         block size from user
         hopsize from user
         window function type from user
+        window option
+        kappa value
         we should also have constructed our options array properly.
      */
     
@@ -248,7 +250,7 @@ Error_t getClArgs( std::string &sInputFilePath, std::string &sOutputFilePath, in
     }
     if(argc > 4)
     {
-        if(atof(argv[4]) > 1.0 && static_cast<int>(atof(argv[4])) <= blockSize)
+        if(atof(argv[4]) > 1.0 && static_cast<int>(atof(argv[4])) < blockSize) // because of the fact that inputsrcbuff doesnt allow hopsize to be equal to blocksize.
         {
             hopSize = static_cast<int>(atof(argv[4]));
         }

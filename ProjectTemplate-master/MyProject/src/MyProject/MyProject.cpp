@@ -106,9 +106,10 @@ Error_t CMyProject::initInstance(int iNumChannels, float fSampleRate, int iBlock
     m_vOptionsArray = optionsArray;
     m_iNumBlocks = iNumBlocks;
     
+    
     m_FFTResult = new float[m_iBlockSize];
     m_fFftMag = new float[static_cast<int>(m_iBlockSize/2) + 1];
-    m_pMyInputBuffSrc  = new CInputBuffSrc<float>(m_iNumChannels, m_iBlockSize, 0);
+    m_pMyInputBuffSrc  = new CInputBuffSrc<float>(m_iNumChannels, m_iBlockSize, 0); // zero latency
     
     CFft::createInstance(m_pMyFFt);
     m_pMyFFt->initInstance(m_iBlockSize, 1, eWindowFunctionType, eWindow);
@@ -218,7 +219,7 @@ Error_t CMyProject::process(float **ppfInputBuffer, float **ppfOutputBuffer, int
     while(m_pMyInputBuffSrc->getBlock(m_ProcBuff, m_iBlockSize, m_iHopSize))
     {
         //downmixing
-        CUtil::setZero(m_DownMixedAudio, m_iBlockSize); // clean up downmixed audio every block.
+        CUtil::setZero(m_DownMixedAudio, m_iBlockSize); // clean up downmixed audio every block. or else it will be accumulating
         for(int i=0; i<m_iBlockSize; i++)
         {
             for(int j=0; j<m_iNumChannels; j++)
@@ -232,16 +233,13 @@ Error_t CMyProject::process(float **ppfInputBuffer, float **ppfOutputBuffer, int
         {
             m_pMyFFt->doFft(m_FFTResult, m_DownMixedAudio);
             m_pMyFFt->getMagnitude(m_fFftMag, m_FFTResult);
-//            for(int i=0; i < (m_iBlockSize/2 + 1); i++)
-//            {
-//                std::cout<<m_fFftMag[i]<<std::endl;
-//            }
         }
         
         for(int i=0; i < m_vOptionsArray.size(); i++)
         {
             float result = 0.0;
-            if(m_vOptionsArray[i] < CFeatureExtractor::kNumSpectralFeatures)
+            // depending on whether the option is
+            if(m_vOptionsArray[i] < CFeatureExtractor::kNumSpectralFeatures) // spectral features
             {
                 result =  m_pFeatureExtractor->extractFeatures(m_fFftMag, static_cast<int>(m_iBlockSize/2) + 1, m_vOptionsArray[i]);
             }else // Time domain features
@@ -249,12 +247,12 @@ Error_t CMyProject::process(float **ppfInputBuffer, float **ppfOutputBuffer, int
                 result = m_pFeatureExtractor->extractFeatures(m_DownMixedAudio, m_iBlockSize, m_vOptionsArray[i]);
             }
             
-            m_FeatureMatrix[i][m_iBlockCounter] = result;
+            m_FeatureMatrix[i][m_iBlockCounter] = result; // write the result to appropriate row and column in the feature matrix. 
         }
         
-        m_iBlockCounter++;
+        m_iBlockCounter++; // this is used to keep track of correct column to which to write to in the feature matrix.
     }
-    m_pMyInputBuffSrc->releaseDataPtr();
+    m_pMyInputBuffSrc->releaseDataPtr(); // release ptr at the end of every process call or else the remaining samples would not be buffered for the next process call!
 
     return kNoError;
 }
@@ -267,6 +265,6 @@ void CMyProject::getSizeOfResult(int &numRows, int &numColumns)
 
 void CMyProject::getResult(float **&featureMatrix)
 {
-    featureMatrix = m_FeatureMatrix;
+    featureMatrix = m_FeatureMatrix; // pointer by reference.
 }
 

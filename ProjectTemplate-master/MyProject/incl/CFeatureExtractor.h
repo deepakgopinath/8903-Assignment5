@@ -17,7 +17,7 @@
 class CFeatureExtractor
 {
 public:
-    enum SpectralFeatureList
+    enum SpectralFeatureList // can be easily expanded by adding to this enum.
     {
         kSpectralCentroid, // 0
         kSpectralFlux, // 1
@@ -39,9 +39,11 @@ public:
 private:
     
     float m_fSampleRate;
-    float *m_pfPrevBlock;
-    float m_fKappa;
+    float *m_pfPrevBlock; // used for spectral flux to store the previous block magnitude spectrum
+    float m_fKappa; // used for Spectral roll off
     
+    
+    // Feature calculation functions.
     float spectralCentroid(float *spectralData, int sizeOfData);
     float spectralFlux(float *spectralData, int sizeOfData);
     float spectralRollOff(float *spectralData, int sizeOfData, float fKappa = 0.85);

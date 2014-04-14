@@ -37,47 +37,19 @@ SUITE(MyProject)
             pMyAudioFile->openFile(cTestDataDir + "/foxShort" + cExt, CAudioFileIf::kFileRead);
             pMyAudioFile->getFileSpec(stFileSpec);
             pMyAudioFile->getLength(iNumFramesInAudioFile);
-            // std::cout<<iNumFramesInAudioFile<<std::endl;
             iNumBlocks = static_cast<int>(floorf((iNumFramesInAudioFile - m_BlockSize)/m_HopSize)) + 1;
             
-            std::ifstream myMatlabRes;
-            myMatlabRes.open((cTestDataDir + "/matlabrefCentroid.txt").c_str());
-            std::string str;
-            if(myMatlabRes.is_open())
-            {
-                while(myMatlabRes.good())
-                {
-                    getline(myMatlabRes, str);
-                    const char *temp = str.c_str();
-                    m_MatlabCentroid.push_back(atof(temp));
-                }
-            }
-            myMatlabRes.close();
-            str.clear();
-            
+            std::ifstream myMatlabRes; // using f stream to read the text and store the values in a vector of floats to compare the results of C++ implementation. 
+           
             myMatlabRes.open((cTestDataDir + "/matlabrefFlux.txt").c_str());
+             std::string str;
             if(myMatlabRes.is_open())
             {
                 while(myMatlabRes.good())
                 {
                     getline(myMatlabRes, str);
                     const char *temp = str.c_str();
-                    //std::cout << std::setprecision(9) << atof(temp) <<std::endl;
                     m_MatlabFlux.push_back(atof(temp));
-                }
-            }
-            myMatlabRes.close();
-            str.clear();
-            
-            myMatlabRes.open((cTestDataDir + "/matlabrefRolloff.txt").c_str());
-            if(myMatlabRes.is_open())
-            {
-                while(myMatlabRes.good())
-                {
-                    getline(myMatlabRes, str);
-                    const char *temp = str.c_str();
-                    //std::cout << std::setprecision(13) << atof(temp) <<std::endl;
-                    m_MatlabRolloff.push_back(atof(temp));
                 }
             }
             myMatlabRes.close();
@@ -90,7 +62,6 @@ SUITE(MyProject)
                 {
                     getline(myMatlabRes, str);
                     const char *temp = str.c_str();
-                  //  std::cout << std::setprecision(13) << atof(temp) <<std::endl;
                     m_MatlabZCR.push_back(atof(temp));
                 }
             }
@@ -106,6 +77,7 @@ SUITE(MyProject)
                 delete [] m_ppfAudioData[i];
                 delete [] m_ppfZeroAudioData[i];
             }
+            delete [] m_ppfZeroAudioData;
             delete [] m_ppfAudioData;
             delete [] m_ppfTmp;
         }
@@ -122,9 +94,10 @@ SUITE(MyProject)
         long long iNumFramesInAudioFile;
         
         std::vector<int>m_OptionsArray;
-        std::vector<float> m_MatlabCentroid;
+        
+        // To store the txt file from Matlab for comparision
+        
         std::vector<float> m_MatlabFlux;
-        std::vector<float> m_MatlabRolloff;
         std::vector<float> m_MatlabZCR;
         
         static const int m_BlockSize;
@@ -145,7 +118,7 @@ SUITE(MyProject)
         m_OptionsArray.push_back(0);
         m_OptionsArray.push_back(1);
         m_OptionsArray.push_back(2);
-        m_OptionsArray.push_back(3); // all features.
+        m_OptionsArray.push_back(3); // select all features.
         
         int xDim, yDim;
         float **resultMatrix = 0;
@@ -180,11 +153,10 @@ SUITE(MyProject)
                 {
                     CHECK_CLOSE(0.0, resultMatrix[j][i], 1e-3);
                 }
-                else
+                else // for spectral rolloff for a zero input the first bin's frequency would be returned which NOT be zero, which is why this if else statement,
                 {
                     CHECK_CLOSE((m_SampleRate/2.0)/((m_BlockSize/2.0) + 1), resultMatrix[j][i], 1e-3);
                 }
-                
             }
         }
         CMyProject::destroyInstance(pMyFeatExtractor);
@@ -194,10 +166,14 @@ SUITE(MyProject)
 
     TEST_FIXTURE(MyProjectData, RegressionTestsForZeroCrossFluxFeatures)
     {
+        
+        // Comparing results from MATLAB and C++ for Flux and ZeroCrossing.
+        
         m_OptionsArray.push_back(0);
         m_OptionsArray.push_back(1);
         m_OptionsArray.push_back(2);
         m_OptionsArray.push_back(3); // all features.
+        
         const int kBlockSize = 1024;
         int xDim, yDim;
         float **resultMatrix = 0;
@@ -239,12 +215,13 @@ SUITE(MyProject)
         resultMatrix = 0;
         m_OptionsArray.clear();
 
-        
-        
     }
     
     TEST_FIXTURE(MyProjectData, SpectralCentroidSine)
     {
+        // The spectral centroid for a sinewave would be close to the frequency of the sine wave.
+        // For that we don't apply a window and compute FFT on the whole file at once.
+        // The output of the feature extractor is ONE value which is the Spectral Centroid for the whole file.
         m_OptionsArray.push_back(0);
         float fSineFreq = 128.0;
         CMyProject::createInstance(pMyFeatExtractor);
@@ -281,7 +258,7 @@ SUITE(MyProject)
         {
             for(int j=0; j<xDim; j++) // feature index
             {
-                CHECK_CLOSE((1.0 - resultMatrix[j][i]/fSineFreq), 0.0, 2e-3) ;
+                CHECK_CLOSE((1.0 - resultMatrix[j][i]/fSineFreq), 0.0, 2e-3) ; // compare the two values instead of doing differences so that it scales well.
             }
         }
         
@@ -290,11 +267,16 @@ SUITE(MyProject)
             delete [] mSineAudio[i];
         }
         delete [] mSineAudio;
+        resultMatrix = 0;
         m_OptionsArray.clear();
     }
     
     TEST_FIXTURE(MyProjectData, SpectralRollOff)
     {
+        
+        // The following frequencies are added to make a composite signal..
+        // 8, 16, 32, 64, 128 Hz...
+        // If we set kappa to be 0.8, then the spectral rolloff will correspond to that bin number to whch 64 belongs to.
         m_OptionsArray.push_back(2);
         float **mSineAudio = 0;
         mSineAudio = new float*[m_iNumChannels];
@@ -354,10 +336,84 @@ SUITE(MyProject)
         delete [] mSineAudio;
         delete [] tempArray;
         CMyProject::destroyInstance(pMyFeatExtractor);
+        resultMatrix = 0;
         m_OptionsArray.clear();
+    }
+    
+    TEST_FIXTURE(MyProjectData, ZeroCrossingSine)
+    {
         
+        // zero crossing for a sine wave with frequency f will be half as much as for a sine wave with a frequency 2*f. This is being checked here
+        m_OptionsArray.push_back(3);
+        float **mSineAudio = 0;
+        float **mSineAudioDouble = 0;
+        float fSineFreq = 16.0;
+        float firstResult = 0.0, secondResult = 0.0; // to store results.
+        mSineAudio = new float*[m_iNumChannels];
+        mSineAudioDouble = new float*[m_iNumChannels];
+        for(int i=0; i<m_iNumChannels; i++)
+        {
+            mSineAudio[i] = new float[m_iTestDataLength];
+            mSineAudioDouble[i] = new float[m_iTestDataLength];
+            CSignalGen::generateSine(mSineAudio[i], fSineFreq, m_SampleRate, m_iTestDataLength,1.0, M_PI_4);
+            CSignalGen::generateSine(mSineAudioDouble[i], fSineFreq*2.0, m_SampleRate, m_iTestDataLength, 1.0, M_PI_4);
+        }
+        CMyProject::createInstance(pMyFeatExtractor);
+        pMyFeatExtractor->initInstance(m_iNumChannels, m_SampleRate, m_iTestDataLength, m_HopSize, eWindowType, eWindow, 0.85, m_OptionsArray, 1);
+        int iNumRemainingFrames = m_iTestDataLength;
+        int iNumProcessFrames = 512; // fixed block size for reading data
+        while(iNumRemainingFrames > 0)
+        {
+            for (int i=0; i<m_iNumChannels; i++)
+            {
+                m_ppfTmp[i] = &mSineAudio[i][m_iTestDataLength-iNumRemainingFrames];
+            }
+            
+            iNumProcessFrames = std::min(iNumProcessFrames, iNumRemainingFrames);
+            pMyFeatExtractor->process(m_ppfTmp, m_ppfTmp, iNumProcessFrames);
+            iNumRemainingFrames -= iNumProcessFrames;
+        }
+        int xDim, yDim;
+        float **resultMatrix = 0;
         
-
+        pMyFeatExtractor->getSizeOfResult(xDim, yDim);
+        CHECK_EQUAL(xDim, 1);
+        CHECK_EQUAL(yDim, 1);
+        pMyFeatExtractor->getResult(resultMatrix);
+        firstResult = resultMatrix[0][0];
+        pMyFeatExtractor->resetInstance();
+        pMyFeatExtractor->initInstance(m_iNumChannels, m_SampleRate, m_iTestDataLength, m_HopSize, eWindowType, eWindow, 0.85, m_OptionsArray, 1);
+        
+        iNumRemainingFrames = m_iTestDataLength;
+        iNumProcessFrames = 512;
+        while(iNumRemainingFrames > 0)
+        {
+            for (int i=0; i<m_iNumChannels; i++)
+            {
+                m_ppfTmp[i] = &mSineAudioDouble[i][m_iTestDataLength-iNumRemainingFrames];
+            }
+            
+            iNumProcessFrames = std::min(iNumProcessFrames, iNumRemainingFrames);
+            pMyFeatExtractor->process(m_ppfTmp, m_ppfTmp, iNumProcessFrames);
+            iNumRemainingFrames -= iNumProcessFrames;
+        }
+        
+        pMyFeatExtractor->getSizeOfResult(xDim, yDim);
+        CHECK_EQUAL(xDim, 1);
+        CHECK_EQUAL(yDim, 1);
+        pMyFeatExtractor->getResult(resultMatrix);
+        secondResult = resultMatrix[0][0];
+        
+        CHECK_CLOSE(secondResult - 2.0*firstResult, 0.0, 1e-3);
+        for(int i=0; i<m_iNumChannels; i++)
+        {
+            delete [] mSineAudio[i];
+            delete [] mSineAudioDouble[i];
+        }
+        delete [] mSineAudio;
+        delete [] mSineAudioDouble;
+        resultMatrix = 0;
+        CMyProject::destroyInstance(pMyFeatExtractor);
     }
 }
 
